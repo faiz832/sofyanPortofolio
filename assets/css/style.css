@@ -5,11 +5,7 @@
 
   /* gradient */
 
-  --bg-gradient-onyx: linear-gradient(
-    to bottom right,
-    hsl(272, 50%, 49%) 3%,
-    hsl(272, 69%, 25%) 97%
-  );
+  --bg-gradient-onyx: linear-gradient(to bottom right, #40b3ff 3%, #0264a5 97%);
   --bg-gradient-jet: linear-gradient(
       to bottom right,
       hsla(240, 1%, 18%, 0.251) 0%,
@@ -339,6 +335,7 @@ main {
 }
 
 .avatar-box {
+  overflow: hidden;
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
 }
